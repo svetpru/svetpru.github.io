@@ -8,23 +8,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!--Навигационная панель-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-light bg-warning">
         <!--Логотип-->
-        <a class="navbar-brand" href="#">Vishn'a</a>
+        <a class="navbar-brand" href="#">Joltaya Vishn'a</a>
         <!--Список-->
         <ul class="navbar-nav">
             <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Repository</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Google</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Yandex</a></li>
             <!--Выпадающий список-->
             <li class="nav-item dropdown">
                 <!--Его заголовок-->
-                <a href="#" class="nav-link dropdown-toggle" id="toggler" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">♪Games♪</a>
+                <a href="#" class="nav-link dropdown-toggle" id="toggler" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">♪Games♪</a>
                 <!--Список выпадающего списка-->
                 <div class="dropdown-menu" aria-labelledby="toggler">
                     <a href="#" class="dropdown-item">Counter Strige: Global Offensive</a>
@@ -34,8 +38,54 @@
             </li>
         </ul>
     </nav>
-
-
+    <!--Карусель-->
+    <div class="container-fluid d-flex justify-content-end">
+        <div class="carousel slide" id="banner" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="3000">
+                    <img class="d-block w-100" src="img/nastol.com.ua-222561.jpg">
+                    <div class="carousel-caption d-none d-lg-block text-warning">
+                        <h3 class="header">Галерея фруктиков</h3>
+                        <p>Выглядят аппетитно</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img class="d-block w-100" src="img/fruit-salad-dish-strawberry.jpg">
+                    <div class="carousel-caption d-none d-lg-block">
+                        <h3 class="header">Галерея фруктиков</h3>
+                        <p>Выглядят аппетитно</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img class="d-block w-100" src="img/Still-life-fruit-grapes-peach-plums_1366x768.jpg">
+                    <div class="carousel-caption d-none d-lg-block text-warning">
+                        <h3 class="header">Галерея фруктиков</h3>
+                        <p>Выглядят аппетитно</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img class="d-block w-100" src="img/tomswallpapers.com-67821.jpg">
+                    <div class="carousel-caption d-none d-lg-block">
+                        <h3 class="header">Галерея фруктиков</h3>
+                        <p>Выглядят аппетитно</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img class="d-block w-100" src="img/fonstola.ru_221753_1366x768.jpg">
+                    <div class="carousel-caption d-none d-lg-block text-warning">
+                        <h3 class="header">Галерея фруктиков</h3>
+                        <p>Выглядят аппетитно</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#banner" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark"></span>
+            </a>
+            <a href="#banner" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-warning"></span>
+            </a>
+        </div>
+    </div>
 
 
 
