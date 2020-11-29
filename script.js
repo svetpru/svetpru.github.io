@@ -8,6 +8,7 @@ $(document).ready(function () {
 
 
 $("#btnSelect").click(function (e) { 
+    //переменные
     let select = document.querySelector("select.custom-select")
     let url = select.options[select.selectedIndex].value + " " + "div#answer";
     
