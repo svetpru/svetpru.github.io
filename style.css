@@ -36,3 +36,11 @@
     top: 0;
     user-select: none;
 }
+
+#msgLabel{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#sell{
+    font-family: 'Patrick Hand', cursive;
+}
