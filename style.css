@@ -1,5 +1,7 @@
 body{
     background-color: rgb(225, 226, 130);
+    background-image: url(http://pngimg.com/uploads/ice_cream/ice_cream_PNG21010.png);
+    background-size: 75px;
 }
 
 .navbar-brand {
