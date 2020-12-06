@@ -1,24 +1,28 @@
-.navbar-brand{
+.navbar-brand {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 24pt;
 }
-.nav-link{
+
+.nav-link {
     font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 16pt;
 }
-.dropdown-item{
+
+.dropdown-item {
     font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 16pt;
 }
-#banner{
+
+#banner {
     width: 700px;
 }
-.header{
+
+.header {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.carousel-caption{
+.carousel-caption {
     color: black;
     background-color: rgba(180, 58, 58, 0.589);
     /* width: 250px;
@@ -26,21 +30,22 @@
     text-align: ; */
 }
 
-.text{
+.text {
     color: whitesmoke;
 }
 
-#answer{
+#answer {
     visibility: hidden;
     position: absolute;
     top: 0;
     user-select: none;
 }
 
-#msgLabel{
+#msgLabel {
     font-family: 'Sansita Swashed', cursive;
 }
 
-#sell{
+#sell {
     font-family: 'Patrick Hand', cursive;
+    font-size: 16pt;
 }
